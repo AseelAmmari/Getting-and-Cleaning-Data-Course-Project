@@ -1,0 +1,60 @@
+Main Variables :
+-subject - The ID of the test subject
+-activity - The type of activity performed when the corresponding measurements were taken.
+
+
+Activity types:
+ 1.WALKING
+
+ 2.WALKING_UPSTAIRS
+
+ 3.WALKING_DOWNSTAIRS
+ 
+4.SITTING
+ 
+5.STANDING
+
+ 6.LAYING
+
+
+Analysis Variables: 
+ "tBodyAccMean()-X"                   "tBodyAccMean()-Y"              
+ [3] "tBodyAccMean()-Z"               "tBodyAccSTD()-X"               
+ [5] "tBodyAccSTD()-Y"                "tBodyAccSTD()-Z"               
+ [7] "tGravityAccMean()-X"            "tGravityAccMean()-Y"           
+ [9] "tGravityAccMean()-Z"            "tGravityAccSTD()-X"            
+[11] "tGravityAccSTD()-Y"             "tGravityAccSTD()-Z"            
+[13] "tBodyAccJerkMean()-X"           "tBodyAccJerkMean()-Y"          
+[15] "tBodyAccJerkMean()-Z"           "tBodyAccJerkSTD()-X"           
+[17] "tBodyAccJerkSTD()-Y"            "tBodyAccJerkSTD()-Z"           
+[19] "tBodyGyroMean()-X"              "tBodyGyroMean()-Y"             
+[21] "tBodyGyroMean()-Z"              "tBodyGyroSTD()-X"              
+[23] "tBodyGyroSTD()-Y"               "tBodyGyroSTD()-Z"              
+[25] "tBodyGyroJerkMean()-X"          "tBodyGyroJerkMean()-Y"         
+[27] "tBodyGyroJerkMean()-Z"          "tBodyGyroJerkSTD()-X"          
+[29] "tBodyGyroJerkSTD()-Y"           "tBodyGyroJerkSTD()-Z"          
+[31] "tBodyAccMagMean()"              "tBodyAccMagSTD()"              
+[33] "tGravityAccMagMean()"           "tGravityAccMagSTD()"           
+[35] "tBodyAccJerkMagMean()"          "tBodyAccJerkMagSTD()"          
+[37] "tBodyGyroMagMean()"             "tBodyGyroMagSTD()"             
+[39] "tBodyGyroJerkMagMean()"         "tBodyGyroJerkMagSTD()"         
+[41] "fBodyAccMean()-X"               "fBodyAccMean()-Y"              
+[43] "fBodyAccMean()-Z"               "fBodyAccSTD()-X"               
+[45] "fBodyAccSTD()-Y"                "fBodyAccSTD()-Z"               
+[47] "fBodyAccMeanFreq()-X"           "fBodyAccMeanFreq()-Y"          
+[49] "fBodyAccMeanFreq()-Z"           "fBodyAccJerkMean()-X"          
+[51] "fBodyAccJerkMean()-Y"           "fBodyAccJerkMean()-Z"          
+[53] "fBodyAccJerkSTD()-X"            "fBodyAccJerkSTD()-Y"           
+[55] "fBodyAccJerkSTD()-Z"            "fBodyAccJerkMeanFreq()-X"      
+[57] "fBodyAccJerkMeanFreq()-Y"       "fBodyAccJerkMeanFreq()-Z"      
+[59] "fBodyGyroMean()-X"              "fBodyGyroMean()-Y"             
+[61] "fBodyGyroMean()-Z"              "fBodyGyroSTD()-X"              
+[63] "fBodyGyroSTD()-Y"               "fBodyGyroSTD()-Z"              
+[65] "fBodyGyroMeanFreq()-X"          "fBodyGyroMeanFreq()-Y"         
+[67] "fBodyGyroMeanFreq()-Z"          "fBodyAccMagMean()"             
+[69] "fBodyAccMagSTD()"               "fBodyAccMagMeanFreq()"         
+[71] "fBodyBodyAccJerkMagMean()"      "fBodyBodyAccJerkMagSTD()"      
+[73] "fBodyBodyAccJerkMagMeanFreq()"  "fBodyBodyGyroMagMean()"        
+[75] "fBodyBodyGyroMagSTD()"          "fBodyBodyGyroMagMeanFreq()"    
+[77] "fBodyBodyGyroJerkMagMean()"     "fBodyBodyGyroJerkMagSTD()"     
+[79] "fBodyBodyGyroJerkMagMeanFreq()"
